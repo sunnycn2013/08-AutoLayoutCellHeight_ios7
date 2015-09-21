@@ -14,6 +14,7 @@
 		B07306D21B836DA200C22558 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B07306D11B836DA200C22558 /* Images.xcassets */; };
 		B07306D51B836DA200C22558 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B07306D31B836DA200C22558 /* LaunchScreen.xib */; };
 		B07306E11B836DA200C22558 /* _8_AutoLayoutCellHeight_ios7Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = B07306E01B836DA200C22558 /* _8_AutoLayoutCellHeight_ios7Tests.m */; };
+		B07306EC1B836E2600C22558 /* HomeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B07306EB1B836E2600C22558 /* HomeCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		B07306DA1B836DA200C22558 /* 08-AutoLayoutCellHeight_ios7Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "08-AutoLayoutCellHeight_ios7Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B07306DF1B836DA200C22558 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B07306E01B836DA200C22558 /* _8_AutoLayoutCellHeight_ios7Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _8_AutoLayoutCellHeight_ios7Tests.m; sourceTree = "<group>"; };
+		B07306EA1B836E2600C22558 /* HomeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeCell.h; sourceTree = "<group>"; };
+		B07306EB1B836E2600C22558 /* HomeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				B07306D11B836DA200C22558 /* Images.xcassets */,
 				B07306D31B836DA200C22558 /* LaunchScreen.xib */,
 				B07306C41B836DA200C22558 /* Supporting Files */,
+				B07306EA1B836E2600C22558 /* HomeCell.h */,
+				B07306EB1B836E2600C22558 /* HomeCell.m */,
 			);
 			path = "08-AutoLayoutCellHeight_ios7";
 			sourceTree = "<group>";
@@ -221,6 +226,7 @@
 			files = (
 				B07306CD1B836DA200C22558 /* ViewController.m in Sources */,
 				B07306CA1B836DA200C22558 /* AppDelegate.m in Sources */,
+				B07306EC1B836E2600C22558 /* HomeCell.m in Sources */,
 				B07306C71B836DA200C22558 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
